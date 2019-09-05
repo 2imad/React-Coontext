@@ -3,8 +3,6 @@ import { ThemeContext } from '../context/ThemeContext';
 import { AuthContext } from '../context/AuthContext';
 
 class Navbar extends Component {
-
-
     render() {
         return (
             <AuthContext.Consumer>{(authContext) => (
